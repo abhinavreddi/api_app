@@ -1,16 +1,27 @@
 # api_app
 
-A new Flutter project.
+API app is flutter app where user can get the data from a api in the form of Listview 
 
-## Getting Started
+## Setup
+1. create a app using flutter crreate api_app
+2. The open the folder using cd api_app
+3. add http dependency in pubspec.yaml file or ctrl+shift+p > add dependency > http
 
-This project is a starting point for a Flutter application.
+## project structure
+1. create service folder > api_service.dart
+2. create Pages folder > homescreen.dart
 
-A few resources to get you started if this is your first Flutter project:
+## App Flow 
+main.dart > Homescreen - fetch data using > service_api.dart -display the fetched data in > Homescreen using Listview.builder
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features Implemented
+1. Api fetching
+2. scroable Listview
+3. error handling
+4. async and await
+5. CircularProgressIndicator
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Additional Enhancements
+1. offline app or use cache memory
+2. crud operation on data
+3. increase user experience
