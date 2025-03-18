@@ -25,3 +25,5 @@ main.dart > Homescreen - fetch data using > service_api.dart -display the fetche
 1. offline app or use cache memory
 2. crud operation on data
 3. increase user experience
+
+![image](https://github.com/user-attachments/assets/909f0a90-d841-4d60-a5bb-78e6f5d5143e)
